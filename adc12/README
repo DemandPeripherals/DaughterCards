@@ -1,0 +1,15 @@
+ADC12, a 12-bit, 8 channel Analog-to-Digital Converter
+
+This directory contains the design and documentation for the
+ADC12 daughter card.  This card has an ESPI interface to the
+FPGA and a 4.096 volt reference.  There is a small wire-wrap
+area.
+
+
+NAME:   ADC12
+TITLE:  Twelve bit, eight channel analog-to-digital converter
+DESCRIPTION:    A general purpose 12 bit ADC with a clock
+encoded SPI interface.  Includes a 4.096 volt reference.
+SPEC:   Eight channel, 12 bit ADC with a maximum sample rate
+of 1 millisecond.
+

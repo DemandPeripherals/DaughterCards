@@ -1,0 +1,12 @@
+ESPI, Encoded SPI Prototyping card
+
+
+NAME:        ESPI
+TITLE:       Encoded SPI Prototyping card
+DESCRIPTION:
+This directory contains the design and documentation for the
+ESPI card.  This card has an ESPI interface that comes out to
+a set of header pins.  The card has solder pad for an SOIC-16
+and a TSSOP-16.  There is a small wire-wrap area.
+    DELETE THE 595s FROM THE SCHEMATIC BEFORE PUBLICATION !!!!!!!
+
