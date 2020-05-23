@@ -4,7 +4,7 @@ of the Demand Peripherals daughter cards.
 
 
 These drawings are released under the Creative Commons
-Share-Alike 3.0 Unported license.  Please see LICENSE.html
+Share-Alike 3.0 Unported license.  Please see LICENSE
 for the text of the license.
 
 
