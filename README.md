@@ -8,6 +8,12 @@ Share-Alike 3.0 Unported license.  Please see LICENSE
 for the text of the license.
 
 
+The white directory contain the schematics and layout
+for cards with a white silkscreen and which have either
+3.5 or 1.575 inches between mounting holes.  The black
+directory has the same, or newer, schematics for cards
+which have 40 or 90 millimeter mounting hole spacing.
+
 
 <p> &nbsp; </p>
 

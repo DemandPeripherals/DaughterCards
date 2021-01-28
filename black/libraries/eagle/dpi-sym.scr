@@ -1,0 +1,376 @@
+# Library script
+# 
+# Exported from /home/bsmith/.eagle/lbr/dpi-sym.lbr at 7/3/16 8:43 PM
+# 
+# EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+# 
+Set Wire_Bend 2;
+# Grid changed to 'mm' to avoid loss of precision!
+Grid mm;
+Layer   1 Top;
+Layer  16 Bottom;
+Layer  17 Pads;
+Layer  18 Vias;
+Layer  19 Unrouted;
+Layer  20 Dimension;
+Layer  21 tPlace;
+Layer  22 bPlace;
+Layer  23 tOrigins;
+Layer  24 bOrigins;
+Layer  25 tNames;
+Layer  26 bNames;
+Layer  27 tValues;
+Layer  28 bValues;
+Layer  29 tStop;
+Layer  30 bStop;
+Layer  31 tCream;
+Layer  32 bCream;
+Layer  33 tFinish;
+Layer  34 bFinish;
+Layer  35 tGlue;
+Layer  36 bGlue;
+Layer  37 tTest;
+Layer  38 bTest;
+Layer  39 tKeepout;
+Layer  40 bKeepout;
+Layer  41 tRestrict;
+Layer  42 bRestrict;
+Layer  43 vRestrict;
+Layer  44 Drills;
+Layer  45 Holes;
+Layer  46 Milling;
+Layer  47 Measures;
+Layer  48 Document;
+Layer  49 Reference;
+Layer  50 dxf;
+Layer  51 tDocu;
+Layer  52 bDocu;
+Layer  91 Nets;
+Layer  92 Busses;
+Layer  93 Pins;
+Layer  94 Symbols;
+Layer  95 Names;
+Layer  96 Values;
+Layer  97 Info;
+Layer  98 Guide;
+Layer 250 Descript;
+Layer 251 SMDround;
+Description '';
+
+Edit 'DP_FRAME_P.sym';
+Layer 94;
+Change Style continuous;
+Wire  0.254 (54.356 248.158) (54.356 254);
+Wire  0.254 (190.5 248.158) (157.734 248.158) (107.696 248.158);
+Wire  0.254 (107.696 254) (107.696 248.158) (54.356 248.158);
+Wire  0.254 (157.734 248.158) (157.734 253.746);
+Wire  0.254 (0 248.158) (54.356 248.158);
+Wire  0.3 (0 254) (0 0) (190.5 0) (190.5 254) \
+      (0 254);
+Layer 94;
+Change Size 2.54;
+Change Ratio 8;
+Change Align bottom left;
+Change Font vector;
+Text 'NAME:' R0 (55.626 249.428);
+Layer 94;
+Change Size 2.54;
+Change Align bottom left;
+Text 'DATE:' R0 (108.204 249.428);
+Layer 94;
+Change Size 2.54;
+Change Ratio 10;
+Change Align bottom left;
+Text 'SHEET:' R0 (158.75 249.428);
+Layer 94;
+Change Size 2.54;
+Change Ratio 8;
+Change Align bottom left;
+Text '>DRAWING_NAME' R0 (69.596 249.428);
+Layer 94;
+Change Size 2.54;
+Change Ratio 10;
+Change Align bottom left;
+Text '>SHEET' R0 (174.752 249.428);
+Layer 94;
+Change Size 2.54;
+Change Ratio 12;
+Change Align bottom left;
+Text '>Last_Date_Time' R0 (121.158 249.428);
+Layer 94;
+Change Size 2.54;
+Change Ratio 8;
+Change Align bottom left;
+Text 'Demand Peripherals, Inc.' R0 (1.016 249.428);
+
+Edit 'DP_FRAME_L.sym';
+Layer 94;
+Wire  0.254 (254 185.42) (223.52 185.42) (160.02 185.42) (107.696 185.42) \
+      (86.36 185.42) (54.356 185.42);
+Wire  0.254 (0 185.42) (54.356 185.42);
+Wire  0.3 (0 0) (254 0) (254 185.42) (254 190.5) \
+      (223.52 190.5) (160.02 190.5) (86.36 190.5) (0 190.5) \
+      (0 0);
+Layer 94;
+Change Size 2.54;
+Change Align bottom left;
+Text 'NAME:' R0 (90.17 186.69);
+Layer 94;
+Change Size 2.54;
+Change Align bottom left;
+Text 'DATE:' R0 (164.592 186.69);
+Layer 94;
+Change Size 2.54;
+Change Ratio 10;
+Change Align bottom left;
+Text 'SHEET:' R0 (225.298 186.69);
+Layer 94;
+Change Size 2.54;
+Change Ratio 8;
+Change Align bottom left;
+Text '>DRAWING_NAME' R0 (102.616 186.69);
+Layer 94;
+Change Size 2.54;
+Change Ratio 10;
+Change Align bottom left;
+Text '>SHEET' R0 (238.76 186.69);
+Layer 94;
+Change Size 2.54;
+Change Ratio 12;
+Change Align bottom left;
+Text '>Last_Date_Time' R0 (176.784 186.69);
+Layer 94;
+Change Size 2.54;
+Change Ratio 8;
+Change Align bottom left;
+Text 'Demand Peripherals, Inc.' R0 (1.016 186.69);
+Layer 94;
+Wire  0.254 (223.52 190.5) (223.52 185.42);
+Wire  0.254 (160.02 190.5) (160.02 185.42);
+Wire  0.254 (86.36 190.5) (86.36 185.42);
+
+Edit '+3V3.sym';
+Layer 94;
+Wire  0.254 (1.27 0.635) (0 2.54) (-1.27 0.635);
+Pin '+3V3' sup none short R90 off 0 (0 0);
+Layer 96;
+Change Size 1.778;
+Change Align bottom left;
+Change Font proportional;
+Text '>VALUE' R90 (-2.54 -2.54);
+
+Edit 'AGND.sym';
+Layer 94;
+Wire  0.254 (-1.905 0) (1.905 0);
+Wire  0.254 (-1.0922 -0.508) (1.0922 -0.508);
+Pin 'AGND' sup none short R270 off 0 (0 2.54);
+Layer 96;
+Change Size 1.778;
+Change Align bottom left;
+Text '>VALUE' R90 (-2.54 -5.08);
+
+Edit 'GND.sym';
+Layer 94;
+Wire  0.254 (-1.905 0) (1.905 0);
+Pin 'GND' sup none short R270 off 0 (0 2.54);
+Layer 96;
+Change Size 1.778;
+Change Align bottom left;
+Text '>VALUE' R0 (-2.54 -2.54);
+
+Edit 'VCC.sym';
+Layer 94;
+Wire  0.254 (1.27 -1.905) (0 0) (-1.27 -1.905);
+Pin 'VCC' sup none short R90 off 0 (0 -2.54);
+Layer 96;
+Change Size 1.778;
+Change Align bottom left;
+Text '>VALUE' R90 (-2.54 -2.54);
+
+Edit '+5V.sym';
+Layer 94;
+Wire  0.254 (1.27 -1.905) (0 0) (-1.27 -1.905);
+Pin '+5V' sup none short R90 off 0 (0 -2.54);
+Layer 96;
+Change Size 1.778;
+Change Align bottom left;
+Text '+5V' R90 (-2.54 -2.54);
+
+Edit '+2V5.sym';
+Layer 94;
+Wire  0.254 (1.27 -1.905) (0 0) (-1.27 -1.905);
+Pin '+2V5' sup none short R90 off 0 (0 -2.54);
+Layer 96;
+Change Size 1.778;
+Change Align bottom left;
+Text '+2V5' R90 (-2.54 -2.54);
+
+Edit '+1V2.sym';
+Layer 94;
+Wire  0.254 (1.27 -1.905) (0 0) (-1.27 -1.905);
+Pin '+1V2' sup none short R90 off 0 (0 -2.54);
+Layer 96;
+Change Size 1.778;
+Change Align bottom left;
+Text '+1V2' R90 (-2.54 -2.54);
+
+Edit 'VAUX.sym';
+Layer 94;
+Wire  0.254 (1.27 0.635) (0 2.54) (-1.27 0.635);
+Pin 'VAUX' sup none short R90 off 0 (0 0);
+Layer 96;
+Change Size 1.778;
+Change Align bottom left;
+Change Font proportional;
+Text '>VALUE' R90 (-2.54 -2.54);
+
+Edit 'VDD.sym';
+Layer 94;
+Wire  0.254 (1.27 -1.905) (0 0) (-1.27 -1.905);
+Wire  0.254 (0 1.27) (-1.27 -1.905);
+Wire  0.254 (1.27 -1.905) (0 1.27);
+Pin 'VDD' sup none short R90 off 0 (0 -2.54);
+Layer 96;
+Change Size 1.778;
+Change Align bottom left;
+Text '>VALUE' R90 (-2.54 -2.54);
+
+Edit 'P_FRAME.pac';
+Description 'Portrait frame';
+
+Edit 'L_FRAME.pac';
+Description 'Portrait frame';
+
+Edit 'FIDUCIAL.pac';
+Description 'Registration mark for assembly';
+Layer 1;
+Circle 0.6096 (0 0) (0.2796 0);
+Layer 29;
+Circle 1.4224 (0 0) (0.7058 0);
+Layer 41;
+Circle 0.8128 (0 0) (0.9968 0);
+
+Edit 'DPI-1.pac';
+Description 'Demand Peripherals Symbol #1';
+Layer 1;
+Wire  0.4064 (0 2.286) (0 -2.286);
+Wire  0.4064 (-0.762 -1.016) (0.762 -1.016);
+Wire  0.4064 (-0.762 1.016) (0.762 1.016);
+Wire  0.4064 (0.762 -1.016) +180 (0.762 1.016);
+Wire  0.4064 (-0.762 -1.016) -180 (-0.762 1.016);
+
+Edit 'DPI-2.pac';
+Description 'Demand Peripherals Symbol #2';
+Layer 29;
+Wire  0.4064 (0 2.286) (0 -2.286);
+Wire  0.4064 (-0.762 -1.016) (0.762 -1.016);
+Wire  0.4064 (-0.762 1.016) (0.762 1.016);
+Wire  0.4064 (0.762 -1.016) +180 (0.762 1.016);
+Wire  0.4064 (-0.762 -1.016) -180 (-0.762 1.016);
+Layer 31;
+Wire  0.4064 (0 2.286) (0 -2.286);
+Wire  0.4064 (-0.762 -1.016) (0.762 -1.016);
+Wire  0.4064 (-0.762 1.016) (0.762 1.016);
+Wire  0.4064 (0.762 -1.016) +180 (0.762 1.016);
+Wire  0.4064 (-0.762 -1.016) -180 (-0.762 1.016);
+
+Edit 'DPI-3.pac';
+Description 'Demand Peripherals Symbol #3';
+Layer 1;
+Wire  0.4064 (0 2.286) (0 -2.286);
+Wire  0.4064 (-0.762 -1.016) (0.762 -1.016);
+Wire  0.4064 (-0.762 1.016) (0.762 1.016);
+Wire  0.4064 (0.762 -1.016) +180 (0.762 1.016);
+Wire  0.4064 (-0.762 -1.016) -180 (-0.762 1.016);
+Layer 31;
+Wire  0.4064 (0 2.286) (0 -2.286);
+Wire  0.4064 (-0.762 -1.016) (0.762 -1.016);
+Wire  0.4064 (-0.762 1.016) (0.762 1.016);
+Wire  0.4064 (0.762 -1.016) +180 (0.762 1.016);
+Wire  0.4064 (-0.762 -1.016) -180 (-0.762 1.016);
+Layer 29;
+Wire  0.4064 (0 2.286) (0 -2.286);
+Wire  0.4064 (-0.762 -1.016) (0.762 -1.016);
+Wire  0.4064 (-0.762 1.016) (0.762 1.016);
+Wire  0.4064 (0.762 -1.016) +180 (0.762 1.016);
+Wire  0.4064 (-0.762 -1.016) -180 (-0.762 1.016);
+
+Edit '+1V2.dev';
+Prefix '';
+Description '';
+Value off;
+Add +1V2 'G$1' next 0 (0 0);
+Technology '';
+
+Edit '+2V5.dev';
+Prefix '';
+Description '';
+Value off;
+Add +2V5 'G$1' next 0 (0 0);
+Technology '';
+
+Edit '+3V3.dev';
+Prefix '';
+Description '';
+Value off;
+Add +3V3 'G$1' next 0 (0 0);
+Technology '';
+
+Edit '+5V.dev';
+Prefix '';
+Description '';
+Value off;
+Add +5V 'G$1' next 0 (0 0);
+Technology '';
+
+Edit 'AGND.dev';
+Prefix 'AGND';
+Description 'SUPPLY SYMBOL';
+Value off;
+Add AGND 'VR1' next 0 (0 0);
+Technology '';
+
+Edit 'GND.dev';
+Prefix 'GND';
+Description 'SUPPLY SYMBOL';
+Value off;
+Add GND '1' next 0 (0 0);
+Technology '';
+
+Edit 'VCC.dev';
+Prefix 'P+';
+Description 'SUPPLY SYMBOL';
+Value off;
+Add VCC 'VCC' next 0 (0 0);
+Technology '';
+
+Edit 'VAUX.dev';
+Prefix 'P+';
+Description 'SUPPLY SYMBOL';
+Value off;
+Add VAUX 'VAUX' next 0 (0 0);
+Technology '';
+
+Edit 'VDD.dev';
+Prefix 'VDD';
+Description 'SUPPLY SYMBOL';
+Value off;
+Add VDD 'G$1' next 0 (0 0);
+Technology '';
+
+Edit 'DP_FRAME_P.dev';
+Prefix '';
+Description 'Portrait/Letter Document Frame';
+Value off;
+Add DP_FRAME_P 'G$1' next 0 (0 0);
+Package 'P_FRAME' '';
+Technology '';
+
+Edit 'DP_FRAME_L.dev';
+Prefix 'S';
+Description 'Landscape Document Frame';
+Value off;
+Add DP_FRAME_L 'G$1' next 0 (0 0);
+Package 'L_FRAME' '';
+Technology '';
+Grid inch;
